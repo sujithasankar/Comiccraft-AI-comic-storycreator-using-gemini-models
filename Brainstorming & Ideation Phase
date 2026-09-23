@@ -1,1 +1,89 @@
+1. Project Idea
 
+ComicCraft-AI is an AI-powered comic story creation system that helps users create original comic stories using Google Gemini models. The user provides a simple idea, characters, theme, or genre, and the system uses AI to develop it into a structured comic story.
+
+2. Problem Identified
+
+Creating a comic manually requires several skills such as:
+
+Story writing
+Character creation
+Dialogue writing
+Scene planning
+Story sequencing
+Creative visualization
+
+Beginners may have good ideas but find it difficult to convert those ideas into a complete comic story.
+
+3. Brainstorming Ideas
+
+During brainstorming, the following features were considered:
+
+Idea	Description
+💡 Story Generator	Generate a story from a simple user prompt
+👤 Character Creator	Create characters with names, personalities and roles
+🎭 Genre Selection	Fantasy, comedy, adventure, mystery, sci-fi, etc.
+💬 Dialogue Generator	Generate suitable dialogue for each character
+🎬 Scene Generator	Divide the story into individual comic scenes
+📝 Story Editing	Allow users to modify AI-generated content
+🖼️ Comic Panel Planning	Convert scenes into comic-panel descriptions
+🎨 Image Generation	Generate visual prompts for comic panels
+🔄 Story Continuation	Continue an unfinished story
+📤 Export	Save or export the completed comic
+4. Finalized Concept
+
+After brainstorming, the main concept was finalized as:
+
+“An AI-based platform that transforms a user's simple story idea into a structured comic by generating characters, scenes, dialogues and panel descriptions using Gemini models.”
+
+5. Role of Gemini Models
+
+Gemini models can be used as the AI reasoning and content-generation layer of ComicCraft-AI.
+
+Basic workflow:
+
+User's Idea
+     ↓
+ComicCraft-AI
+     ↓
+Gemini Model
+     ↓
+Story Generation
+     ↓
+Character Creation
+     ↓
+Scene & Dialogue Generation
+     ↓
+Comic Panel Structure
+     ↓
+Final Comic Story
+6. Example
+
+User Input:
+
+“Create a fantasy comic about a young girl who discovers a magical forest.”
+
+ComicCraft-AI can generate:
+
+Title: The Secret Forest
+Main Character: A young girl named Mira
+Genre: Fantasy
+Story: Beginning → Conflict → Adventure → Climax → Ending
+Characters: Mira, a mysterious guardian and magical creatures
+Scenes: Forest entrance, magical discovery, conflict, final encounter
+Dialogues: Character-specific conversations
+Panel descriptions: Visual descriptions for each comic panel
+7. Innovation
+
+The main innovative idea is to combine AI story generation and comic structuring into one system. Instead of asking users to write an entire comic manually, ComicCraft-AI helps them move from idea → story → characters → scenes → dialogues → comic panels.
+
+8. Proposed Project Objective
+
+Objective:
+To develop an AI-powered comic story creator using Gemini models that enables users to easily transform their creative ideas into structured and engaging comic stories.
+
+9. Expected Outcome
+
+The final system should allow a user to:
+
+Enter an idea → Select genre/style → Generate story → Edit content → Generate comic structure → Create the final comic.
