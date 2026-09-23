@@ -1,1 +1,89 @@
+1. System Design
 
+The system is designed to convert a user's simple idea into a complete comic story using Gemini models.
+
+User
+  ↓
+User Interface
+  ↓
+Enter Story Idea
+  ↓
+Gemini AI Model
+  ↓
+Story Generation
+  ↓
+Character + Scene + Dialogue Generation
+  ↓
+Comic Panel Structure
+  ↓
+Edit / Regenerate
+  ↓
+Final Comic Story
+2. Main Modules
+
+1. User Interface Module
+Provides a simple interface where users can enter their story idea and select options such as genre and story style.
+
+2. Story Generation Module
+Uses Gemini to expand the user's idea into a structured story with a beginning, middle, climax and ending.
+
+3. Character Creation Module
+Generates character names, personalities, roles and relationships based on the story.
+
+4. Scene Generation Module
+Divides the story into scenes and provides descriptions for each comic panel.
+
+5. Dialogue Generation Module
+Creates suitable conversations between characters according to the scene.
+
+6. Editing Module
+Allows users to edit, regenerate or modify the generated story and dialogues.
+
+7. Comic Output Module
+Combines the generated content into an organized comic-story format.
+
+3. Technology Design
+Component	Technology
+Frontend	HTML, CSS, JavaScript / React
+Backend	Python / Flask or Node.js
+AI Model	Google Gemini API
+Database	Firebase / MySQL
+Output	Comic panels and story text
+4. Gemini Integration
+
+Gemini acts as the main AI engine.
+
+User Prompt
+     ↓
+Prompt Processing
+     ↓
+Gemini API
+     ↓
+AI-generated Response
+     ↓
+Story / Characters / Scenes / Dialogues
+     ↓
+ComicCraft-AI Interface
+5. User Flow
+Start
+  ↓
+Enter Comic Idea
+  ↓
+Choose Genre
+  ↓
+Choose Number of Scenes
+  ↓
+Generate Story
+  ↓
+Review Characters & Dialogues
+  ↓
+Edit / Regenerate
+  ↓
+Generate Comic Structure
+  ↓
+View Final Comic
+  ↓
+Save / Export
+6. Design Goal
+
+The main design goal of ComicCraft-AI is to provide a simple, creative and user-friendly platform where users can transform their imagination into a structured comic story with the assistance of Gemini models.
