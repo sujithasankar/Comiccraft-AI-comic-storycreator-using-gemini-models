@@ -1,1 +1,74 @@
+The Requirement Analysis Phase identifies what the ComicCraft-AI system needs to provide, what technologies are required, and how users will interact with the application.
 
+1. Functional Requirements
+
+The system should provide the following functions:
+
+User Input – Users can enter a basic comic idea or story prompt.
+Genre Selection – Users can select genres such as fantasy, comedy, adventure, mystery and science fiction.
+Story Generation – Gemini generates a complete story based on the user's idea.
+Character Generation – The system generates character names, roles, personalities and descriptions.
+Scene Generation – The story is divided into suitable scenes or comic panels.
+Dialogue Generation – Gemini generates dialogues for the characters.
+Story Modification – Users can edit or regenerate the generated content.
+Comic Structure – The system organizes the story into panels, scenes and dialogues.
+Preview – Users can preview the generated comic story.
+Save/Export – Users can save or export their completed comic story.
+2. Non-Functional Requirements
+
+The system should satisfy the following requirements:
+
+Usability: The interface should be simple and easy to understand.
+Performance: Story generation should be reasonably fast.
+Reliability: The system should handle invalid or incomplete prompts properly.
+Security: User data and API credentials should be protected.
+Scalability: The system should be capable of supporting more users and features later.
+Maintainability: The application should be easy to update and maintain.
+Responsiveness: The interface should work properly on different screen sizes.
+3. Hardware Requirements
+Computer or laptop
+Minimum 4 GB RAM
+Internet connection
+Keyboard and mouse
+Sufficient storage for application files and generated content
+4. Software Requirements
+Requirement	Technology
+Operating System	Windows / Linux / macOS
+Frontend	HTML, CSS, JavaScript / React
+Backend	Python / Flask or Node.js
+AI Model	Google Gemini API
+Database	Firebase / MySQL
+Browser	Chrome / Edge / Firefox
+Development Tool	VS Code
+5. AI Requirements
+
+The system requires access to a Gemini model through the Google Gemini API. Gemini is used for:
+
+Story generation
+Character development
+Scene descriptions
+Dialogue generation
+Story continuation
+Content modification
+6. User Requirements
+
+The user should be able to:
+
+Enter Idea
+     ↓
+Select Genre
+     ↓
+Generate Story
+     ↓
+Create Characters
+     ↓
+Generate Scenes & Dialogues
+     ↓
+Edit Content
+     ↓
+Preview Comic
+     ↓
+Save / Export
+7. Requirement Summary
+
+The requirement analysis establishes that ComicCraft-AI needs a user-friendly interface, Gemini-powered story generation, character and dialogue creation, scene/panel organization, editing facilities and an option to save or export the final comic. These requirements provide the foundation for designing and developing the complete system.
